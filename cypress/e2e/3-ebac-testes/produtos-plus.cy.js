@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Funcionalidade Página de Produto', () => {
+describe('Funcionalidade Escolha Múltipla de Produtos', () => {
 
     beforeEach(() => {
         cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
