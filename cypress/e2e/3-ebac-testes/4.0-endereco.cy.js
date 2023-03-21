@@ -19,5 +19,5 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
         enderecoPage.editarEnderecoFaturamento('André', 'Fernandes', 'EBAC', 'Brasil', 'Av. Rio Branco', '2001', 'São Paulo', 'São Paulo', '01000100', '1199999999', 'andre@ebac.com')
         // VALIDAÇÃO
         cy.get('.woocommerce-message').should('contain', 'Endereço alterado com sucesso')
-    });
+    });    
 });
