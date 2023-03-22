@@ -6,7 +6,7 @@ import enderecoPage from "../../support/page-objects/endereco.page";
 // CRIando A MINHA CONSTANTE
 const dadosEnredeco = require('../../fixtures/endereco.json')
 
-describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
+describe('Funcionalidade Endereços - Faturamento e Entrega - Usando Massa de Dados', () => {
 
     beforeEach(() => {
         cy.visit('minha conta')
