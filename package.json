@@ -4,7 +4,11 @@
   "description": "Repositório para testes com Cypress na versão atualizada",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:ebac": "npx cypress run --browser chrome --spec 'C:/GitHub/Teste-Ebac-UI-NEW/cypress/e2e/3-ebac-testes/*.cy.js'",
+    "cy:ebac-report": "cypress run --browser chrome --spec 'C:/GitHub/Teste-Ebac-UI-NEW/cypress/e2e/3-ebac-testes/*.cy.js' --record --key 486078be-c6e4-4a6b-9601-c8c826f23967"
   },
   "keywords": [],
   "author": "",
